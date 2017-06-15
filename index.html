@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kap Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="flex-container">
+    <form class="calculator">
+      <input type="button" value="C" onlick="value+=''">
+      <input type="textfield" name="ans" value="">
+
+      <input type="button" value="1" id="1" onclick="calculator.ans.value+='1'">
+      <input type="button" value="2" id="2" onclick="calculator.ans.value+='2'">
+      <input type="button" value="3" id="3" onclick="calculator.ans.value+='3'">
+      <input type="button" value="4" id="4" onclick="calculator.ans.value+='4'">
+      <input type="button" value="5" id="5" onclick="calculator.ans.value+='5'">
+      <input type="button" value="6" id="6" onclick="calculator.ans.value+='6'">
+      <input type="button" value="7" id="7" onclick="calculator.ans.value+='7'">
+      <input type="button" value="8" id="8" onclick="calculator.ans.value+='8'">
+      <input type="button" value="9" id="9" onclick="calculator.ans.value+='9'">
+      <input type="button" value="0" id="0" onclick="calculator.ans.value+='0'">
+      <input type="button" value="+" id="+" onclick="calculator.ans.value+='+'">
+      <input type="button" value="-" id="-" onclick="calculator.ans.value+='-'">
+      <input type="button" value="*" id="*" onclick="calculator.ans.value+='*'">
+      <input type="button" value="/" id="divide" onclick="calculator.ans.value+='/'">
+      <input type="button" value="="  id="result" onclick="calculator.ans.value=result(value)">
+
+    </form>
+  </div>
+
+  </body>
+</html>

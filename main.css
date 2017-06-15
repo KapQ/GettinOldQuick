@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  background-color: lightgreen;
+  text-decoration-color: white;
+  display: flex;
+  display: inline-block;
+}
+.calculator{
+  display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-content: center;
+     width: 100%;
+   }
+
+.button{
+  width: 155px;
+  height: 140px;
+  border: solid;
+  border-color: white;
+}
+.flex-container{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+@media screen and (min-width:320px){
+
+}
